@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Local vs Session Storage</title>
+
+    <style>
+        
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <a href="index.html" class="top-link">← Back to Index</a>
+
+        <h1>Local vs Session Storage</h1>
+
+        <p class="subtitle">
+            Save and display browser storage content with a modern UI.
+        </p>
+
+        <!-- Local Storage -->
+        <div class="storage-box">
+
+            <h2>Local Storage</h2>
+
+            <label for="localStorage">
+                Enter a phrase to save into local storage:
+            </label>
+
+            <input 
+                id="localStorage"
+                type="text"
+                placeholder="Type something..."
+            >
+
+            <button class="submit">Save to Local Storage</button>
+
+            <div class="alert">
+                Content saved successfully!
+            </div>
+
+        </div>
+
+        <!-- Session Storage -->
+        <div class="storage-box">
+
+            <h2>Session Storage</h2>
+
+            <label for="sessionStorage">
+                Enter a phrase to save into session storage:
+            </label>
+
+            <input 
+                id="sessionStorage"
+                type="text"
+                placeholder="Type something..."
+            >
+
+            <button class="submit2">Save to Session Storage</button>
+
+            <div class="alert2">
+                Content saved successfully!
+            </div>
+
+        </div>
+
+        <!-- Output -->
+        <div class="output-box">
+
+            <h3>Local Storage Content</h3>
+            <p id="localContent" class="content">
+                Your local storage content will appear here.
+            </p>
+
+        </div>
+
+        <div class="output-box">
+
+            <h3>Session Storage Content</h3>
+            <p id="sessionContent" class="content">
+                Your session storage content will appear here.
+            </p>
+
+        </div>
+
+        <button class="printContent">
+            Print Stored Content
+        </button>
+
+    </div>
+
+    <script script src="script2.js">
+
+    </script>
+
+</body>
+</html>

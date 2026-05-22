@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Storage Practice</title>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <a href="part2.html" class="top-link">← Go to Part 2</a>
+
+        <h1>Browser Storage Form</h1>
+        <p class="subtitle">
+            Practice saving values using Local Storage and Session Storage.
+        </p>
+
+        <form>
+
+            <fieldset>
+                <legend>Local Storage</legend>
+
+                <label for="date">Today's Date</label>
+
+                <input 
+                    id="date" 
+                    placeholder="Save the current date to local storage..."
+                >
+            </fieldset>
+
+            <fieldset>
+                <legend>Session Storage</legend>
+
+                <label for="riddle">
+                    What kind of coat is always wet when you put it on?
+                </label>
+
+                <input 
+                    type="text" 
+                    id="riddle"
+                    placeholder="Save the answer to this riddle to session storage..."
+                >
+            </fieldset>
+
+            <input type="submit" value="Save Data" class="submit">
+
+        </form>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

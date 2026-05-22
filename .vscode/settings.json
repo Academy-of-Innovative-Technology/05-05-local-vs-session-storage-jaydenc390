@@ -13,5 +13,6 @@
   "editor.autoClosingBrackets": "never",
   "editor.autoClosingQuotes": "never",
   "editor.autoSurround": "never",
-  "editor.snippetSuggestions": "none"
+  "editor.snippetSuggestions": "none",
+  "livePreview.defaultPreviewPath": "/index.html"
 }
